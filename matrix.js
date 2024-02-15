@@ -50,10 +50,6 @@ const showResult = (title, containerId, rows, cols, dataArray) => {
     container.appendChild(table);
 };
 
-// const showResult2D = (title, containerId, dataArray) => {
-// 	// dataArray is a 2D array
-// 	// complete this function based on the showResult function
-// }
 
 const showResult2D = (title, containerId, dataArray) => {
     let container = document.getElementById(containerId);
@@ -77,19 +73,6 @@ const showResult2D = (title, containerId, dataArray) => {
     container.appendChild(table);
 };
 
-// function performOperation(operation) {
-//     let matrix1 = getMatrixData2D('matrix1');
-//     let matrix2 = getMatrixData2D('matrix2');
-//     console.log("1st Matrix",matrix1);
-//     console.log("2nd Matrix", matrix2);
-//     console.log("Operation", operation);
-//     // Just a test result
-//     let result = [1, 2, 3, 4, 5, 6, 7, 8];
-//     // Call your matrix calculation functions here
-//     // For example: if (operation === 'add') { addMatrices(matrix1, matrix2); }
-// 	// prints suitable messages for impossible situation
-//     showResult('The Result', 'matrix3', 2, 4, result); // use suitable function for printing results
-// }
 function performOperation(operation) {
     let matrix1 = getMatrixData2D('matrix1');
     let matrix2 = getMatrixData2D('matrix2');
@@ -203,9 +186,3 @@ const multiplyMatrices = (matrix1, matrix2) => {
     return result;
 };
 
-// const subtractMatrices = function (matrix1, matrix2) { 
-// 	// provide the code
-// };
-// const multiplyMatrices = (matrix1, matrix2) => { 
-// 	// provide the code
-// };
